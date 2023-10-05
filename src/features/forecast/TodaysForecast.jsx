@@ -87,8 +87,3 @@ const TodaysForecast = ({ forecast, status }) => {
 };
 
 export default TodaysForecast;
-
-
-// TODO
-// Add settings modal
-// Placeholder for missing days in weekly forecast
