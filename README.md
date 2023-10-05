@@ -19,4 +19,4 @@ A simple weather app that uses the OpenWeatherMap API to display the current and
 3. Run `npm run dev` to start the development server.
 
 ## Site link
-https://react-weather-now.netlify.app/
+## https://react-weather-now.netlify.app/
