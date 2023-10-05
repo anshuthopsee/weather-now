@@ -46,7 +46,7 @@ const WeeklyForecast = ({ forecast, status }) => {
 
   return (
     <div className={`flex w-full h-full bg-gray-200 rounded-xl  flex-col ${status === "loading" && "animate-pulse"}`}>
-      <p className='text-[16px] font-semibold text-gray-500 m-0 py-3 px-5 h-fit w-full border-2 border-b-gray-400 rounded-t-xl'>Weekly Forecast</p>
+      <p className='text-[16px] font-semibold text-gray-500 m-0 py-3 px-5 h-fit w-full border-2 border-b-gray-400 rounded-t-xl'>Next 5 Day's Forecast</p>
       <Content/>
     </div>
   );
