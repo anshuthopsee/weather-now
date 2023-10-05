@@ -6,7 +6,8 @@ A simple weather app that uses the OpenWeatherMap API to display the current and
 ## Features
 1. Autocomplete feature that suggests cities as you type with memoization.
 2. Displays the current and forecasted weather for a given city.
-3. Can  toggle between different units of measurement.
+3. Can toggle between different units of measurement.
+4. Animated weather icons taken from https://github.com/busywork/barometric repo.
 
 ## To be added
 1. Persistance of the last searched city, units of measurement using local storage.
