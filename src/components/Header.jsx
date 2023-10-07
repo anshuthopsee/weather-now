@@ -20,7 +20,7 @@ const Header = () => {
         <p className='text-[14px] text-white m-1 p-0'>powered by RapidAPI & OpenWeather</p>
       </div>
       <Link to='/settings' >
-        <FiSettings className='text-[28px] text-white cursor-pointer'/>
+        <FiSettings className='text-[28px] text-white cursor-pointer hover:rotate-45 transition-all duration-300'/>
       </Link>
     </header>
   );
