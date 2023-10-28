@@ -31,6 +31,9 @@ export default {
       boxShadow: {
         'custom': '0 5px 60px -15px rgba(0, 0, 0, 0.3)',
       },
+      backgroundColor: {
+        'white-opacity-20': 'rgba(255, 255, 255, 0.2)',
+      },
     },
   },
   plugins: [],
