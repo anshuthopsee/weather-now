@@ -1,11 +1,20 @@
 import { Outlet } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { getBackgroundColor } from '../features/settings/settingsSlice';
 import Header from './Header';
 import { FaGithub } from 'react-icons/fa';
 
+const backgroundColors = {
+  blue: 'from-custom-gradient-start-blue',
+  green: 'from-custom-gradient-start-green',
+  purple: 'from-custom-gradient-start-purple'
+};
+
 function Layout() {
+  const backgroundColor = useSelector(getBackgroundColor);
   return (  
     <>
-      <div className="flex min-h-screen bg-gradient-to-t from-custom-gradient-start to-custom-gradient-end flex-col">
+      <div className={`flex min-h-screen bg-gradient-to-b ${backgroundColors[backgroundColor]} to-custom-gradient-end flex-col`}>
         <Header/>
         <div className='container mx-auto px-4 grow flex flex-col'>
           <div className='flex-1'>

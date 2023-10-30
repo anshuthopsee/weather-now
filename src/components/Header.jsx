@@ -15,7 +15,7 @@ const Header = () => {
           <div className='text-[28px] text-white flex items-center'>
             <BsCloudSunFill />
           </div>
-          <span className="text-[28px] font-bold text-white font-pixelify m-0 p-0 relative top-[7px]">Weather Now</span>
+          <span className="text-[28px] font-bold text-white font-pixelify m-0 p-0 relative top-[7px] whitespace-nowrap">Weather Now</span>
         </div>
         <p className='text-[14px] text-white m-1 p-0'>powered by RapidAPI & OpenWeather</p>
       </div>

@@ -10,8 +10,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'custom-gradient-start': '#0C0C0C',
-        'custom-gradient-end': '#4834D4',
+        'custom-gradient-start-blue': '#4834D4',
+        'custom-gradient-start-green': '#02cf61',
+        'custom-gradient-start-purple': '#ad03fc',
+        'custom-gradient-end': '#0C0C0C',
         primary: "#202225",
         secondary: "#5865f2",
         gray: {
